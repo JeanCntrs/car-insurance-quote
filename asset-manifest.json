@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JeanCntrs/car-insurance-quote.git/static/css/main.c339f28e.chunk.css",
-    "main.js": "/JeanCntrs/car-insurance-quote.git/static/js/main.8ace2de7.chunk.js",
-    "main.js.map": "/JeanCntrs/car-insurance-quote.git/static/js/main.8ace2de7.chunk.js.map",
-    "runtime-main.js": "/JeanCntrs/car-insurance-quote.git/static/js/runtime-main.5e0aaecd.js",
-    "runtime-main.js.map": "/JeanCntrs/car-insurance-quote.git/static/js/runtime-main.5e0aaecd.js.map",
-    "static/js/2.e42bec47.chunk.js": "/JeanCntrs/car-insurance-quote.git/static/js/2.e42bec47.chunk.js",
-    "static/js/2.e42bec47.chunk.js.map": "/JeanCntrs/car-insurance-quote.git/static/js/2.e42bec47.chunk.js.map",
-    "index.html": "/JeanCntrs/car-insurance-quote.git/index.html",
-    "precache-manifest.05a00895e16c56523ddddb6dc439d796.js": "/JeanCntrs/car-insurance-quote.git/precache-manifest.05a00895e16c56523ddddb6dc439d796.js",
-    "service-worker.js": "/JeanCntrs/car-insurance-quote.git/service-worker.js",
-    "static/css/main.c339f28e.chunk.css.map": "/JeanCntrs/car-insurance-quote.git/static/css/main.c339f28e.chunk.css.map",
-    "static/js/2.e42bec47.chunk.js.LICENSE": "/JeanCntrs/car-insurance-quote.git/static/js/2.e42bec47.chunk.js.LICENSE"
+    "main.css": "/JeanCntrs/car-insurance-quote/static/css/main.c339f28e.chunk.css",
+    "main.js": "/JeanCntrs/car-insurance-quote/static/js/main.8ace2de7.chunk.js",
+    "main.js.map": "/JeanCntrs/car-insurance-quote/static/js/main.8ace2de7.chunk.js.map",
+    "runtime-main.js": "/JeanCntrs/car-insurance-quote/static/js/runtime-main.d6fffb02.js",
+    "runtime-main.js.map": "/JeanCntrs/car-insurance-quote/static/js/runtime-main.d6fffb02.js.map",
+    "static/js/2.e42bec47.chunk.js": "/JeanCntrs/car-insurance-quote/static/js/2.e42bec47.chunk.js",
+    "static/js/2.e42bec47.chunk.js.map": "/JeanCntrs/car-insurance-quote/static/js/2.e42bec47.chunk.js.map",
+    "index.html": "/JeanCntrs/car-insurance-quote/index.html",
+    "precache-manifest.1450438b0f234a3287ee048b3e44a667.js": "/JeanCntrs/car-insurance-quote/precache-manifest.1450438b0f234a3287ee048b3e44a667.js",
+    "service-worker.js": "/JeanCntrs/car-insurance-quote/service-worker.js",
+    "static/css/main.c339f28e.chunk.css.map": "/JeanCntrs/car-insurance-quote/static/css/main.c339f28e.chunk.css.map",
+    "static/js/2.e42bec47.chunk.js.LICENSE": "/JeanCntrs/car-insurance-quote/static/js/2.e42bec47.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e0aaecd.js",
+    "static/js/runtime-main.d6fffb02.js",
     "static/js/2.e42bec47.chunk.js",
     "static/css/main.c339f28e.chunk.css",
     "static/js/main.8ace2de7.chunk.js"
