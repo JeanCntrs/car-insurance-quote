@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, Fragment } from 'react';
+import Header from './components/Header';
+import Form from './components/Form';
+import Summary from './components/Summary';
+import Result from './components/Result';
+import Spinner from './components/Spinner';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    const [summary, setSummary] = useState({});
+    const [loading, setLoading] = useState(false);
+
+    const { totalPlan, data } = summary;
+
+    return (
+        <Fragment>
+            <Header />
+            <div className="container">
+                <Form setSummary={setSummary} setLoading={setLoading} />
+                {loading ? <Spinner /> : null}
+                {!loading && data ? <Summary data={data} /> : null}
+                {!loading && totalPlan ? <Result totalPlan={totalPlan} /> : null}
+            </div>
+        </Fragment>
+    );
 }
 
 export default App;
